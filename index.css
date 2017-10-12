@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+}
+
+main svg {
+    width: 100vw;
+}
+
+main svg > g circle {
+    stroke: #03d6c1;
+    cursor: pointer;
+    pointer-events: auto;
+}
+
+main svg > g circle:hover {
+    fill: #03d6c1;
+    fill-opacity: 1;
+}
+
+main svg > g text {
+    font-family: sans-serif;
+    font-size: 1em;
+    fill: #969696;
+}
+
+main svg g {
+    pointer-events: none;
+}
+
+main svg g text {
+    position: absolute;
+    z-index: 1000;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+.hidden {
+    display: none;
+    visibility: hidden;
+}
